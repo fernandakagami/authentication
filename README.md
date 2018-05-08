@@ -1,21 +1,17 @@
 # README
 
-It's an authentication system for a website built with Ruby on Rails.
+This is a full Rails login and authentication system based in The Ruby on Rails Tutorial by Michael Hartl.
 
-* Ruby version
+Link to the book: https://www.railstutorial.org/book
 
-* System dependencies
+* Ruby 2.3.1
 
-* Configuration
+* Rails 5.1.6
 
-* Database creation
+* Bootstrap
 
-* Database initialization
+* Database development - Sqqlite3
 
-* How to run the test suite
+* Database production - Postgressql
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deploy - Heroku
