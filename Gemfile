@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.1.6'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# A gem to automate using jQuery with Rails
+gem 'jquery-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -33,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-# Brings back `assigns` and `assert_template` to your Rails tests 
+# Brings back `assigns` and `assert_template` to your Rails tests
 gem 'rails-controller-testing'
 
 group :development, :test do
