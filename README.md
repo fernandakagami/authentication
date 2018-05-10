@@ -10,7 +10,7 @@ Link to the book: https://www.railstutorial.org/book
 
 * Bootstrap
 
-* Database development - Sqqlite3
+* Database development - Sqlite3
 
 * Database production - Postgressql
 
