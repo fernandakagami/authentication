@@ -36,6 +36,10 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
 # Brings back `assigns` and `assert_template` to your Rails tests
 gem 'rails-controller-testing'
+gem 'faker'
+#For pagination
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
