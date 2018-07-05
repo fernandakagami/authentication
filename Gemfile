@@ -38,8 +38,12 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'rails-controller-testing'
 gem 'faker'
 #For pagination
-gem 'will_paginate',           '3.1.6'
+gem 'will_paginate', '3.1.6'
 gem 'bootstrap-will_paginate', '1.0.0'
+#For upload image
+gem 'carrierwave', '~> 1.0'
+gem 'mini_magick'
+gem 'ovirt-engine-sdk', '~> 4.2', '>= 4.2.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -66,4 +70,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :production do
   #Heroku dependency
   gem 'pg'
+  gem 'fog', '~> 1.42', '>= 1.42.1'
+  gem 'fog-ovirt', '~> 1.1'
 end
